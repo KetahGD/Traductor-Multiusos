@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Traductor Multifuncional</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <img src="C:\Users\ROLIS\Documents\cODIGO\gatito.png" alt="hola">
+    <h1>Traductor Multifuncional</h1>
+  </header>
+  <main>
+    <section class="conversion">
+      <h2>Conversión de Texto</h2>
+      <form id="formulario">
+        <label for="texto">Ingresa tu texto:</label>
+        <textarea id="texto" name="texto" rows="5" placeholder="Escribe aquí tu texto"></textarea>
+        <div class="opciones">
+          <label for="tipo">Tipo de Conversión:</label>
+          <select id="tipo" name="tipo">
+            <option value="morse">Código Morse</option>
+            <option value="binario">Binario</option>
+            <option value="cesar">Cifrado César</option>
+          </select>
+        </div>
+        <button type="submit">Convertir</button>
+      </form>
+      <div class="resultado">
+        <p id="resultado-texto"></p>
+        <p id="resultado-sonido"></p>
+      </div>
+    </section>
+    <section class="Que es?">
+      <h2>Que son estos terminos?</h2>
+      <label for="texto">-> El codigo morse fue usado en las diferentes guerras para poder transmiitir mensajes atravez de sonidos cortos y largos, al juntar varios forman un significado.
+        <br>-> El codigo binario es una forma de transmision que se usa en todo dispostivo electronico pero principalmente nuestras computadores y celulares son dependientes, es con 1 y 0.<br>->El cifrado cesar es un tipo de cifrado por sustitución en el que una letra en el texto original es reemplazada por otra letra que se encuentra un número fijo de posiciones más adelante en el alfabeto.
+      </label>
+      <ul id="explicacion"></ul>
+    </section>
+    <section class="historial">
+      <h2>Historial de Consultas</h2>
+      <ul id="lista-historial"></ul>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>

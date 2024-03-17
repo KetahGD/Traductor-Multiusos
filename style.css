@@ -1,0 +1,116 @@
+body {
+  font-family: "Fira Code";
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #c57d56;
+}
+@font-face {
+  font-family: "Fira Code";  /* Same name as used above */
+  src: url("/fuentes/FiraCode-VariableFont_wght.ttf") ;     
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #32000054;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+header img {
+  width: 90px;
+  height: 90px;
+  object-fit: cover;
+  src:url(C:\Users\ROLIS\Documents\cODIGO\gatito.png)
+  
+}
+
+header h1 {
+  font-size: 20px;
+  margin: 0;
+  border-radius: 5px;
+}
+
+main {
+  padding: 20px;
+  border-radius: 5px;
+}
+
+section {
+  border: 1px solid #ffffff;
+  padding: 10px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+section h2 {
+  font-size: 18px;
+  margin-top: 0;
+}
+
+#formulario {
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+}
+
+#texto {
+  margin-bottom: 10px;
+  padding: 5px;
+  border: 1px solid #ffffff;
+  font-size: 16px;
+  color: white;
+  border-radius: 5px;
+  background-color: transparent;
+}
+
+#opciones {
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  background-color: #f7f7f789;
+}
+
+#tipo {
+  margin-left: 10px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+#formulario button {
+  margin-top: 10px;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  background-color: #f7f7f789;
+  cursor: pointer;
+  border-radius: 5px;
+  color: white;
+  font-weight:bold;
+  font-family:"Fira Code";
+}
+
+#resultado-texto {
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+#resultado-sonido {
+  margin-top: 10px;
+}
+
+.historial {
+  list-style: none;
+  padding: 0;
+}
+
+.historial li {
+  border: 1px solid #f7f7f789;
+  padding: 5px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
